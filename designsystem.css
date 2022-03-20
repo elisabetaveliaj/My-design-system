@@ -1,0 +1,227 @@
+html,body {
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto!important; 
+    overflow-x: hidden!important
+}
+
+/*Main headings stylings*/
+
+h1 {
+    color: #E8DCB8;
+    text-align: center;
+    font-size: 50px;
+    Font-Family: 'Old Standard TT', Serif;
+    background-color: #0d4200;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+h2 {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2.5vw;
+}
+
+body {
+    background-color: #E8DCB8;
+}
+
+/*color combinations*/
+
+.colors {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*first color combination*/
+.first {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.one {
+    background-color: #193C40;
+}
+
+.two {
+    background-color: #2E5902;
+}
+
+.three {
+    background-color: #D96941;
+}
+
+/*second color combination*/
+.second {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.one2 {
+    background-color: #6393A6;
+}
+
+.two2 {
+    background-color: #A65B4B;
+}
+
+.three2 {
+    background-color: #F2CBBD;
+}
+
+/*third color combination*/
+.third {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+} 
+
+.one3 {
+    background-color: #D9BCA3;
+}
+
+.two3 {
+    background-color: #731717;
+}
+
+.three3 {
+    background-color: #D99791;
+}
+
+/*forth color combination*/
+.forth {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.one4 {
+    background-color: #024959;
+}
+
+.two4 {
+    background-color: #F2C12E;
+}
+
+.three4 {
+    background-color: #A64F03;
+}
+
+/*fifth color combination*/
+.fifth {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.one5 {
+    background-color: #07668C;
+}
+
+.two5 {
+    background-color: #A0B9D9;
+}
+
+.three5 {
+    background-color: #A6037A;
+}
+
+/*sixth color combination*/
+.sixth {
+    width: 33.33%;
+    float: left;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.one6 {
+    background-color: #F2C9D1;
+}
+
+.two6 {
+    background-color: #29591C;
+}
+
+.three6 {
+    background-color: #24B0BF;
+}
+
+
+/*typography styling*/
+
+.typography {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1850px;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 180px;
+}
+
+/*first typography combination*/
+.typ-example1-main {
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 44px;
+}
+
+.typ-example1-sec {
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+}
+
+/*second typography combination*/
+.typ-example2-main {
+    Font-Family: 'Abril Fatface', Cursive;
+    Font-Size: 44px;
+}
+
+.typ-example2-sec {
+    Font-Family: 'Poppins', Sans-Serif;
+    Font-Size: 15px;
+}
+
+/*thord typography combination*/
+.typ-example3-main {
+    Font-Family: 'Oswald', Sans-Serif;
+    Font-Size: 44px;
+}
+
+.typ-example3-sec {
+    Font-Family: 'Esteban', Serif;
+    Font-Size: 18px;
+}
+
+/*typography combination headings*/
+.firsttypography, .secondtypography, .thirdtypography {
+    margin-top: 90px;
+    Font-Family: 'Julius Sans One', Sans-Serif;
+    Font-Size: 20px;
+    text-decoration: underline;
+}
+
+/*adjusting the hex colour names on the colour combinations*/
+
+@media only screen and (min-width: 768px) {
+    .first, .second, .third, .forth, .fifth, .sixth {
+        font-size: 20px;
+    }
+}
